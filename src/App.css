@@ -1,0 +1,26 @@
+.app-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr min-content;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.vertical-ipad-banner {
+  display: none;
+}
+
+@media only screen and (max-width: 820px) {
+  .app-grid {
+    display: block;
+  }
+
+  .vertical-ipad-banner {
+    display: block;
+  }
+
+  .vertical-ipad-banner .scanColumn {
+    border-bottom: solid #d8e0e4;
+    border-top: none;
+  }
+}

@@ -1,0 +1,19 @@
+.scanColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: solid #d8e0e4;
+}
+
+.scanColumn div {
+  align-self: center;
+  justify-self: center;
+}
+
+.scanColumn div h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.scanColumn div p {
+  text-align: center;
+}

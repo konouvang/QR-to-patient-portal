@@ -1,0 +1,30 @@
+.step {
+  color: white;
+  display: grid;
+  grid-template-areas:
+    "icon header"
+    "icon direction";
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  grid-area: icon;
+  align-self: center;
+  justify-self: center;
+}
+
+.step h2 {
+  grid-area: header;
+  padding-left: 10%;
+  align-self: end;
+  margin: 2%;
+}
+
+.step p {
+  grid-area: direction;
+  padding-left: 10%;
+  align-self: start;
+  margin: 2%;
+  white-space: nowrap;
+}
